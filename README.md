@@ -1,16 +1,60 @@
-# React + Vite
+# Розробка курсового проекту з React і Redux Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sweet Galaxy — Інтернет-магазин для кондитерів
 
-Currently, two official plugins are available:
+Невеликий SPA-додаток інтернет-магазину товарів для кондитерів.
+Користувач може переглядати категорії, додавати товари до кошика, змінювати кількість та оформлювати замовлення.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Демо
 
-## React Compiler
+🔗 Vercel:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- (https://homework-52-yakovenko-5ldw.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🛠 Технології
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React
+
+React Router
+
+Redux Toolkit
+
+Vite
+
+CSS
+
+Vercel (деплой)
+
+## 📦 Функціонал
+
+Перегляд категорій товарів
+
+Перегляд товарів у категорії
+
+Додавання товарів у кошик
+
+Збільшення / зменшення кількості товару
+
+Видалення товару з кошика
+
+Підрахунок загальної суми
+
+Збереження кошика в localStorage
+
+Модальні вікна (кошик, контакти)
+
+Адаптивна верстка
+
+## ⚙️ Встановлення та запуск
+
+- 1️⃣ Клонування репозиторію
+  git clone https://github.com/Ecaterini/homework-52-yakovenko.git
+
+- 2️⃣ Перехід у папку проєкту
+  cd my-react-app
+
+- 3️⃣ Встановлення залежностей
+  npm install
+
+- 4️⃣ Запуск локального сервера
+  npm run dev

@@ -3,11 +3,10 @@ import CategoryCard from "../components/CategoryCard"
 
 function Catalog() {
   return (
-    <div className="categories-grid">
-    <div>
+    <div className="catalog-page">
       <h2>Каталог</h2>
 
-      <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+      <div className="categories-grid">
         {categories.map((category) => (
           <CategoryCard
             key={category.id}
@@ -15,7 +14,6 @@ function Catalog() {
           />
         ))}
       </div>
-    </div>
     </div>
   )
 }
