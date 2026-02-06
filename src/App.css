@@ -7,11 +7,16 @@ body {
   padding: 0;
 }
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   background-color: #ffffff70;
   min-height: 100vh;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.203);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .category-page,
 .catalog-page {

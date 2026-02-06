@@ -3,7 +3,7 @@ import CategoryCard from "../components/CategoryCard"
 
 function Catalog() {
   return (
-    <div className="catalog-page">
+    <div className="container">
       <h2>Каталог</h2>
 
       <div className="categories-grid">
